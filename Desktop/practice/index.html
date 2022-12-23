@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>COHORT FORM</title>
 </head>
 <body>
-    
+    <h2>FILL THIS FORM IN ORDER TO REGISTER FOR THIS COHORT.</h2>
+    <form>
+        <div>
+         <label for="name">Full Name: </label>
+         <input id="name" type="text" name="text" placeholder="Princess Maggy"/>
+        </div><br>
+        <div>
+            <label for="email">Email Address: </label>
+            <input id="email" type="email" name="email" placeholder="example@email.com"/>
+        </div><br>
+        <div>
+            <label for="number">Whatsapp Number: </label>
+            <input id="number" type="tel" name="number"/>
+        </div><br>
+        <div>
+            <label for="birth">Date of Birth</label>
+            <input id="birth" type="date" name="date"/>
+        </div><br>
+        <div>
+            <label for="track">Track: </label><br>
+            <input type="radio" name="track" id="track"/> Web Development
+            <input type="radio" name="track" id="track"/> Artificial Intelligence
+            <input type="radio" name="track" id="track"/> Data Science
+            <input type="radio" name="track" id="track"/> UI/UX
+        </div><br>
+        <div>
+            <label for="state">State of Origin: </label>
+            <select name="state" id="state">
+                <option value="abia">Abia</option>
+                <option value="kano">Kano</option>
+                <option value="taraba">Taraba</option>
+                <option value="kwara">Kwara</option>
+                <option value="anambra">Anambra</option>
+            </select>
+        </div><br>
+        <p>In nothing less than 200 words, state why you should be given this scholarship.</p>
+        <div>
+            <textarea rows="20" cols="40" placeholder="Lorem ipsum"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="SUBMIT"
+        </div>
+    </form>
 </body>
 </html>
